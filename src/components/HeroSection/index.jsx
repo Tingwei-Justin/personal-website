@@ -31,7 +31,12 @@ function HeroSection() {
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            to="signup"
+            to="projects"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary="true"
